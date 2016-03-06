@@ -1,0 +1,20 @@
+hash: 151716aea85b93218a47f88ca9c9eba612e7a90d1d89bd065fea3556d97b533b
+updated: 2016-03-05T11:52:58.616576212-08:00
+imports:
+- name: github.com/codegangsta/cli
+  version: a2943485b110df8842045ae0600047f88a3a56a1
+- name: github.com/google/google-api-go-client
+  version: 286e8c9bcb5f84d8dcac21634d79ab16428b1b78
+  subpackages:
+  - translate/v2
+- name: github.com/joho/godotenv
+  version: 4ed13390c0acd2ff4e371e64d8b97c8954138243
+- name: golang.org/x/net
+  version: 6acef71eb69611914f7a30939ea9f6e194c78172
+  subpackages:
+  - context
+- name: golang.org/x/oauth2
+  version: 2cd4472c321b6cba78e029d99f0e7fe51032fd21
+  subpackages:
+  - google
+devImports: []
