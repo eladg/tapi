@@ -24,4 +24,4 @@ _testmain.go
 *.prof
 
 vendor/
-translate
+tapi

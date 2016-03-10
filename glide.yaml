@@ -1,7 +1,7 @@
 package: github.com/eladg/translate
 import:
 - package: github.com/joho/godotenv
-- package: github.com/google/google-api-go-client
+- package: github.com/eladg/google-api-go-client
   subpackages:
   - translate/v2
 - package: golang.org/x/net
