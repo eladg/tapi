@@ -107,7 +107,7 @@ func setupAction(c *cli.Context) {
 		}
 	}
 
-	fmt.Print("In order to use tapi, you will to setup Google API Key over here: https://goo.gl/6aj3Ha.\nIf you don't have a google developers account setup, follow instuctions here: https://cloud.google.com/translate/v2/getting_started\n\n")
+	fmt.Print("In order to use tapi, you will to setup Google API Key over here: https://goo.gl/6aj3Ha.\nIf you don't have a google developers account setup, follow instructions here: https://cloud.google.com/translate/v2/getting_started\n\n")
 	conf = GetConfigFromUserInput() ; fmt.Println()
 
 	err := conf.WriteConfig()
